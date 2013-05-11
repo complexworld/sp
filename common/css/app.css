@@ -5,16 +5,22 @@ header {
     position: absolute;
 }
 
-section#navigation {
+section#menu,
+section.contents {
     position: absolute;
 }
 
-section#navigation ul {
+section#menu ul {
     float : left;
     width : 100%;
 }
-section#navigation li {
+section#menu li {
     float : left;
     width : 50%;
     height: 100;
 }
+
+section.contents {
+    top: 150px;
+}
+
