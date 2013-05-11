@@ -4,7 +4,6 @@ body {
 header {
     position: absolute;
 }
-
 section#menu,
 section.contents {
     position: absolute;
@@ -23,4 +22,17 @@ section#menu li {
 section.contents {
     top: 150px;
 }
-
+section.contents h2 {
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+section.contents h3 {
+    font-size: 120%;
+}
+/**
+section#about
+*/
+section#about #contact {
+    margin: 10px 0 0 0;
+}
