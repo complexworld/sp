@@ -1,0 +1,17 @@
+header {
+	position: absolute;
+}
+
+section#navigation {
+	position: absolute;
+}
+
+section#navigation ul {
+	float : left;
+	width : 100%;
+}
+section#navigation li {
+	float : left;
+	width : 50%;
+	height: 100;
+}
